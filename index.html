@@ -43,7 +43,7 @@
 
             // Load the 3D model (GLTF/GLB)
             const loader = new THREE.GLTFLoader();
-            loader.load('./your-model-file.glb', (gltf) => {
+            loader.load('./kawashaki_ninja_h2.glb', (gltf) => {
                 const model = gltf.scene;
                 model.scale.set(0.5, 0.5, 0.5); // Adjust size as needed
                 scene.add(model);
